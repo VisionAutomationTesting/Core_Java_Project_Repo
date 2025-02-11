@@ -1,7 +1,7 @@
 package ClassAndObject;
 
 public class Department {
-
+// this is master updates
 	String deptName;
 	
 	void demo() {
