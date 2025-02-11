@@ -13,6 +13,7 @@ public class Employee {
 	String empName;
 	long empMobileNo;
 	
+	String empAddress;
 	
 	static String companyName="Wipro"; // static variable
 	
