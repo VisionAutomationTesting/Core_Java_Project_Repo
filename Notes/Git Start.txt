@@ -1,0 +1,29 @@
+
+you get a repo
+ - create respective branch  ex. dev_santosh
+
+- git clone https://github.com/VisionAutomationTesting/demo.git
+
+- cd demo/ [repo name / folder name]
+
+- git checkout dev_santosh  [branch name]
+
+[after some changes]
+
+- git status
+
+- git add .   [add all changes]
+
+- git commit -m "commit msg"
+
+-git push
+
+
+next day 
+ 
+- git pull [to get letest changes in remot repo / branch]
+
+// 2 ways to resolve git confict
+// raise pr
+// git diff
+

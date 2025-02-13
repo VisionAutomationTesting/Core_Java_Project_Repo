@@ -1,0 +1,32 @@
+
+
+- Java Basic progam > jshell
+- Data type > boolean, char, byte, short, int , long, float, double
+- Variale > instance, static, local
+- Control statements -if & switch
+- Loops - while, do..while, for
+- Logical program
+- Booking.com project/assignment
+
+
+-- Java OOps concepts
+Object Oriented Programming System/Structure
+> if a programming language follow below concepts then that language is OOP language
+Everity / every living/ physical entity is considered as an object 
+c
+-- Inheritance
+-- Polymorphism
+-- Abstraction
+-- Encapsulation
+
+other
+
+-- cupling
+-- cohesion
+-- Associstion
+-- Aggregation
+-- Composition
+
+
+
+
