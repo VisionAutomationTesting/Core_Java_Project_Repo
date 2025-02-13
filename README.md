@@ -4,3 +4,13 @@ This repo is used to maintain all daily task and code
 Rahul block -
 - worked on class & object program
 
+-------------------------------------------------
+Rohit Block
+
+ - worked on something
+ 
+---------------------------------------------
+
+Amol Block
+
+-----------------------------------------------
