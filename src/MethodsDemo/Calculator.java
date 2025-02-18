@@ -24,7 +24,7 @@ public class Calculator {
 	void add() {
 		
 		System.out.println("Add method");
-		int a=70;
+		int a=700;
 		int b=30;
 		System.out.println("a ="+a);
 		System.out.println("b ="+b);
@@ -73,7 +73,8 @@ public class Calculator {
 		long sum=a+b+c;
 //		System.out.println("sum = "+sum);
 		// return typeOFvalue
-		return sum;
+		return sum; // this statement should be the last statement of your method
+		// System.out.println(sum); unreachable
 	}
 	
 	int substraction(int a, int b) {
