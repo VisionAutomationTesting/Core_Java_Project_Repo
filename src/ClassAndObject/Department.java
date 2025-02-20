@@ -4,6 +4,8 @@ public class Department {
 // this is master updates
 	String deptName;
 	
+	static int abc;
+	
 	void demo() {
 		Employee emp1 = new Employee();
 		emp1.empId = 202;
@@ -12,6 +14,8 @@ public class Department {
 	public static void main(String[] args) {
 		System.out.println("this is a dept class");
 
+		int abc=9;
+		
 		Department it = new Department();
 
 		it.deptName = "IT- Information Tech";
@@ -26,6 +30,11 @@ public class Department {
 		System.out.println(emp1.empId);
 		System.out.println(emp1.empName);
 		System.out.println(emp1.empMobileNo);
+		
+		
+		
+		System.out.println(Department.abc);//0
+		System.out.println(abc);//9
 	}
 
 }

@@ -20,8 +20,10 @@ public class Employee {
 	// we can add multiple constructor in single class
 	
 	// rule to create a user defined constructor
-	 // constructor is like a method but its name should be same as class name
+	 // constructor is like a method but/and its name should be same as class name
 	 // it does not have any explicit return type, not even void
+	
+	// constructor returns an instance/object of class
 	
 	Employee(){
 		System.out.println("this is user defined - no argument conrtuctor");
@@ -33,16 +35,18 @@ public class Employee {
 	
 	
 	// parameterized constructor 
-	
-	public Employee(int i, String n, long m) {
+	//static is Illegal modifier for the constructor in type Employee; only public, protected & private are permitted
+	Employee(int i, String n, long m) {
 		System.out.println("this is user defined - w argument conrtuctor");
 		empId=i;
 		empName=n;
 		empMobile=m;
 	}
 
-	void deptOfEmp(String deptName) {
-		System.out.println("Department is = "+deptName);
+	String deptOfEmp(String deptName) {
+		//System.out.println("Department is = "+deptName);
+		System.out.println();
+		return deptName+" of Employee";
 	}
 	
 	void empDetails() {
@@ -80,13 +84,14 @@ public class Employee {
 		System.out.println();
 		
 		Employee e2=new Employee(101,"Suresh", 8876543210l); 
-		e1.empDetails();
-		e1.deptOfEmp("IT");
+		e2.empDetails();
+		String dept=e2.deptOfEmp("Abmin");
 		
 		
-		System.out.println();
+		System.out.println(dept);
 		
 		Employee e3 =new Employee();
 		
 	}
 }
+
