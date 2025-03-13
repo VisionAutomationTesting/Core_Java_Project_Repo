@@ -93,7 +93,7 @@ public class Calculator {
 		// invoke / use/ call
 		
 		cal.add();
-		
+		cal.add();
 		// call static method
 		 // directly in static block
 		 // using class name

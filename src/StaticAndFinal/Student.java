@@ -1,6 +1,15 @@
 package StaticAndFinal;
 
 //Illegal modifier for the class Student; only public, abstract & final are permitted
+
+/**
+ * this is a class which describs Student details and storage of different kinds of informations
+ * <p>
+ * Strings are constant; their values cannot be changed after they
+ * are created. String buffers support mutable strings.
+ * Because String objects are immutable they can be shared. For example:
+ */
+
 public class Student {
 
 	

@@ -34,7 +34,7 @@ public class Whileloop {
 
 		while (a <= 100) {
 			total = total + a;
-			a++;
+			
 		}
 
 		System.out.println("total of 1 to 100 number is = " + total);

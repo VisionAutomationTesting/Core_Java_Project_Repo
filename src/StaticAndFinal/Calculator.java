@@ -9,7 +9,7 @@ public class Calculator {
 	// class - it can not get extended  example :- String class
 	
 	// naming of variable should be CAPITAL
-	 final double PI=3.14;
+	 final double PI = 3.14;
 	 
 //	 static {
 //		 PI=3.14;
@@ -52,6 +52,13 @@ public class Calculator {
 		 cal.addition(100, 200);
 		 
 		 abc=45;
+		 System.out.println(12345678921L);// int
+		 
+		 Calculator cal1=new Calculator();
+		 
+		 String str="data";
+		 
+		 Student s1=new Student();
 		 
 		 System.out.println("abc ="+ abc);
 		 

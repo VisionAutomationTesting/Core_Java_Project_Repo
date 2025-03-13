@@ -30,8 +30,8 @@ public class BreakAndContinue {
 				break;
 			}
 			abc--;
-		}
 
+		}
 		System.out.println();
 
 		int xyz = 20;

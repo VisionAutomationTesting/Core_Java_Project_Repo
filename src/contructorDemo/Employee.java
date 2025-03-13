@@ -1,6 +1,8 @@
 package contructorDemo;
 
-public class Employee {
+import InheritanceDemo.Parent;
+
+public class Employee extends Parent{
 	
 	// Constructor
 	 // is a special type of method which is mainly used to initialize an object [to give value to instance variables]
@@ -71,6 +73,7 @@ public class Employee {
 		Employee e1; // declaration / instantiation
 		
 		e1=new Employee();
+		e1.parentAge=0;
 		
 		e1.empId=100;
 		e1.empName="Dinesh";
@@ -91,7 +94,7 @@ public class Employee {
 		System.out.println(dept);
 		
 		Employee e3 =new Employee();
-		
+		 
 	}
 }
 
