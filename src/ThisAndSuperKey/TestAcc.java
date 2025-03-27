@@ -26,23 +26,18 @@ public class TestAcc {
 //		BankAccount baObj2 = ba.m3();
 //
 //		System.out.println(baObj2.name);
-		
+
 		// --------------------------------------
 		System.out.println();
-		
-		BankAccount bAcc=new BankAccount(12345 );
-		
+
+		BankAccount bAcc = new BankAccount(12345);
+
 		bAcc.getAccDetails();
-		
-		
-		//--------------------------------------
-		
-		
-		
-		
-		SuperDemo sp=new SuperDemo(12345,"Suresh");
+
+		// --------------------------------------
+
+		SuperDemo sp = new SuperDemo(12345, "Suresh");
 		sp.demo();
-		
 
 	}
 }

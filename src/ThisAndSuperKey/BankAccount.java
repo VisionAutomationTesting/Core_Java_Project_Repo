@@ -20,8 +20,10 @@ public class BankAccount {
 	BankAccount(int accountNumber) {
 //		this(); // it is only called in siod the constructor and it should be the first
 		// statement
+		
 		this(10.3);
 		this.accountNumber = accountNumber;
+		super.hashCode();// object
 		System.out.println("this is wiht one parm constructor " + this.accountNumber);
 	}
 
@@ -53,7 +55,7 @@ public class BankAccount {
 
 		BankAccount baObj = new BankAccount();
 		BankAccount baObj2 = m3();
-
+		
 	}
 
 	// XYZ.aMehtod(this);
